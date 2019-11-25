@@ -18,7 +18,7 @@ img#kitty-2
 }
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
-div#basket
+div#basket img
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 5;
@@ -36,7 +36,7 @@ div#ball + img
 }
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
-input[type="img"] 
+input[type="img"]
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 3;
